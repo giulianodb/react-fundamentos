@@ -10,6 +10,7 @@ import Familia from "./components/basicos/Familia";
 import FamiliaCurso from "./components/basicos/FamiliaCurso";
 import FamiliaMembroCurso from "./components/basicos/FamiliaMembroCurso";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 function App(props) {
 
@@ -18,6 +19,13 @@ function App(props) {
   return (
     <div className="App">
       <div className="Cards">
+
+
+      <Card titulo="# 7 - desafio" color="#FF432E">
+
+<TabelaProdutos></TabelaProdutos>
+</Card>
+
 
       <Card titulo="# 6 - repetção" color="#FF4C65">
 
