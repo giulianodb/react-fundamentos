@@ -12,6 +12,8 @@ import FamiliaMembroCurso from "./components/basicos/FamiliaMembroCurso";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+
 
 function App(props) {
 
@@ -24,7 +26,11 @@ function App(props) {
 
       <Card titulo="# 8 - Condicioal" color="#982895">
 
-<ParOuImpar numero={21}></ParOuImpar>
+            <ParOuImpar numero={21}></ParOuImpar>
+            
+            <UsuarioInfo usuario={{nome: 'Fernando'}}></UsuarioInfo>
+            <UsuarioInfo usuario={{email: 'email@com'}}></UsuarioInfo>
+
 </Card>
 
       <Card titulo="# 7 - desafio" color="#FF432E">
