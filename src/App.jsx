@@ -25,13 +25,10 @@ function App(props) {
 
 
       <Card titulo="# 8 - Condicioal" color="#982895">
-
             <ParOuImpar numero={21}></ParOuImpar>
-            
             <UsuarioInfo usuario={{nome: 'Fernando'}}></UsuarioInfo>
             <UsuarioInfo usuario={{email: 'email@com'}}></UsuarioInfo>
-
-</Card>
+      </Card>
 
       <Card titulo="# 7 - desafio" color="#FF432E">
 
