@@ -5,7 +5,7 @@ function TabelaProdutos() {
     function getLinhas() { 
         return produtos.map(produto =>{
             return (
-                <tr>
+                <tr key={produto.id}>
                     <td>{produto.id}</td>
                     <td>{produto.nome}</td>
                     <td>{produto.preco}</td>
@@ -24,7 +24,7 @@ function TabelaProdutos() {
                         <th>Preço</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
                     {getLinhas()}
                 </tbody>
             </table>

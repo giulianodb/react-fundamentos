@@ -11,6 +11,7 @@ import FamiliaCurso from "./components/basicos/FamiliaCurso";
 import FamiliaMembroCurso from "./components/basicos/FamiliaMembroCurso";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 function App(props) {
 
@@ -20,6 +21,11 @@ function App(props) {
     <div className="App">
       <div className="Cards">
 
+
+      <Card titulo="# 8 - Condicioal" color="#982895">
+
+<ParOuImpar numero={21}></ParOuImpar>
+</Card>
 
       <Card titulo="# 7 - desafio" color="#FF432E">
 
